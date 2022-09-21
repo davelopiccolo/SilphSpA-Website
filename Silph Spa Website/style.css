@@ -36,6 +36,11 @@ header {
     color: firebrick;
 }
 
+form {
+    font-family: 'Quicksand' , sans-serif;
+    color: firebrick;
+}
+
 .navbar-item > a {
     text-decoration: none;
     color: firebrick;
@@ -138,3 +143,23 @@ margin-left: 18%;
 
 }
 
+ #prototype {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#showroom > img {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    flex-direction: row;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+#showroom {
+    display: flex;
+    flex-direction: row;
+}
