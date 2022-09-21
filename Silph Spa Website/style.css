@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 1.1rem 5rem;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 30px;
+    width: 20px;
+    padding: 1rem;
+
+} 
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-item {
+    list-style-type: none;
+    margin: 3rem;
+    font-family: 'Quicksand' , sans-serif;
+    color: firebrick;
+}
+
+.navbar-item > a {
+    text-decoration: none;
+    color: firebrick;
+
+}
+
+h1 , h3 {
+    
+    font-family: 'Quicksand' , sans-serif;
+    color: white;
+}
+
+h1 {
+    margin-top: 3rem;
+}
+
+.navbar-item > a:hover {
+    color:aquamarine
+}
+
+h4 {
+    color: firebrick;
+    font-family: 'Quicksand' , sans-serif;
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 10%;
+    background-color: firebrick;
+    font-family: 'Quicksand' , sans-serif;
+    
+
+}
+
+button:hover {
+    color:aquamarine
+}
+
+#master-ball {
+    height: 100px;
+    width: 100px;
+    margin-left: 2rem;
+    
+}
+.master-product {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    margin-right: 15%;
+}
+
+p {
+    color: white;
+    font-family: 'Quicksand' , sans-serif;
+    ;
+}
